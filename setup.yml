@@ -1,0 +1,9 @@
+- name: Play for semaphore server
+  hosts: main
+  roles:
+    - essentials
+    - swap
+    - docker
+    - traefik
+    - semaphore
+    - reboot
